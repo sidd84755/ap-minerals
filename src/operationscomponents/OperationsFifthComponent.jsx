@@ -9,7 +9,7 @@ const OperationsFifthSection = () => {
         display='flex' flexDirection='row' justifyContent='center'
       >
         <Box sx={{ backgroundImage:`url(${operationsixthBg})`, backgroundSize:'cover', backgroundPosition:'center'}} paddingY={{xs:'25px', sm:'30px',md:'100px'}} display='flex' flexDirection='column' justifyContent='flex-start'>
-            <Typography paddingX={{xs:'25px', sm:'30px',md:'50px'}} fontSize={{xs:'20px',sm:'22px',md:'92px'}} fontWeight={700} textAlign='center' color='#A17337' lineHeight='107px'>
+            <Typography paddingX={{xs:'25px', sm:'30px',md:'50px'}} fontSize={{xs:'20px',sm:'22px',md:'72px',lg:'80px'}} fontWeight={700} textAlign='center' color='#A17337' lineHeight='94px'>
                 QUALITY
             </Typography>
             <Box height='10rem'>
