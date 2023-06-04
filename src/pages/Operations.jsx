@@ -12,6 +12,9 @@ import { Box } from '@mui/material'
 
 
 const Operations = () => {
+  window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+  }
   return (
     <>
       <Box position='relative'>

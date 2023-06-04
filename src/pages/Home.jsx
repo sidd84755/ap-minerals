@@ -10,6 +10,9 @@ import { Box, Typography } from '@mui/material'
 import { homethirdBg, homefifthBg } from '../assets'
 
 const Home = () => {
+  window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+  }
   return (
     <>
     <Box position='relative'>

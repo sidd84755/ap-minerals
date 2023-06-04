@@ -7,6 +7,9 @@ import { Box } from '@mui/material'
 import { homefifthBg } from '../assets'
 
 const Contact = () => {
+  window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+  }
   return (
     <>
       <Box position='relative'>
