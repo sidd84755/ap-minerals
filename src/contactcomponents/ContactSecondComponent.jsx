@@ -37,16 +37,16 @@ const ContactSecondSection = () => {
                     E-mail
                 </Typography>
                 <Typography fontSize={{xs:'12px',sm:'12px',md:'14px',lg:'14px'}} fontWeight={400} color='#CDA571' lineHeight='20px'>
-                    amit@apmineral.in &nbsp; pramod@apmineral.in
+                    info@apmineral.in 
                 </Typography>
             </Box>
         </Box>
         <Box display='flex' flexDirection='column' alignItems='flex-start' justifyContent='center' gap='0.5rem'>
-            <Typography fontSize={{xs:'12px',sm:'16px',md:'24px'}} fontWeight={400} color='#A17337' fontStyle='italic'>
+            <Typography fontSize={{xs:'12px',sm:'16px',md:'18px',lg:'20px'}} fontWeight={400} color='#A17337' fontStyle='italic'>
                 Contact Us
             </Typography>
             <Box display='flex' flexDirection='column' alignItems='flex-start' justifyContent='center' gap='1.5rem'>
-                <Typography fontSize={{xs:'16px',sm:'22px',md:'52px'}} fontWeight={700} color='#fff' lineHeight='61px'>
+                <Typography fontSize={{xs:'16px',sm:'22px',md:'32px',lg:'36px'}} fontWeight={700} color='#fff' lineHeight='42px'>
                     We’re Looking Forward to<br/>Hearing From You
                 </Typography>
                 <ContactForm/>

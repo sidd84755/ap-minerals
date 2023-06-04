@@ -13,7 +13,7 @@ const OperationSecondSection = () => {
         
         <Box >
             
-            <Typography lineHeight='60.94px' fontSize={{xs:'16px',sm:'22px',md:'30px',lg:'42px'}} fontWeight={700} color='#1A1A1A'>
+            <Typography lineHeight='49px' fontSize={{xs:'16px',sm:'22px',md:'30px',lg:'42px'}} fontWeight={700} color='#1A1A1A'>
                 Start-to-Finish<br/>
                 Mining Services
             </Typography>

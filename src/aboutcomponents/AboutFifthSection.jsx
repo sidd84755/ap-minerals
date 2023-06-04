@@ -35,7 +35,7 @@ const AboutFifthSection = () => {
                 <Typography lineHeight='28px' fontSize={{xs:'12px',sm:'12px',md:'12px',lg:'20px'}} fontWeight={500} color='#E5E5E5'>
                     People Safety
                 </Typography>
-                <Typography lineHeight='28px' fontSize={{xs:'12px',sm:'12px',md:'12px',lg:'14px'}} fontWeight={400} color='#E5E5E5'>
+                <Typography lineHeight='20px' fontSize={{xs:'12px',sm:'12px',md:'12px',lg:'14px'}} fontWeight={400} color='#E5E5E5'>
                     People are our most important asset. The mines are<br/>built
                     and operated by our team of people and it is our<br/>highest
                     priority to create and maintain a safe and<br/>healthy working
@@ -48,7 +48,7 @@ const AboutFifthSection = () => {
                 <Typography lineHeight='28px' fontSize={{xs:'12px',sm:'12px',md:'12px',lg:'20px'}} fontWeight={500} color='#E5E5E5'>
                     Respect
                 </Typography>
-                <Typography lineHeight='28px' fontSize={{xs:'12px',sm:'12px',md:'12px',lg:'14px'}} fontWeight={400} color='#E5E5E5'>
+                <Typography lineHeight='20px' fontSize={{xs:'12px',sm:'12px',md:'12px',lg:'14px'}} fontWeight={400} color='#E5E5E5'>
                     We are committed to providing a positive working<br/>
                     environment free of discrimination and harassment in<br/>all
                     of our activities. All of our employees, team are given<br/>equal
@@ -63,7 +63,7 @@ const AboutFifthSection = () => {
                     Our Mission
                 </Typography>
             </Box>
-            <Typography lineHeight='28px' fontSize={{xs:'12px',sm:'12px',md:'12px',lg:'14px'}} fontWeight={400} color='#E5E5E5'>
+            <Typography lineHeight='20px' fontSize={{xs:'12px',sm:'12px',md:'12px',lg:'14px'}} fontWeight={400} color='#E5E5E5'>
                 We endeavor to enhance awareness and
                 understanding<br/>of exchange-enabled trade in
                 commodity derivatives. We<br/>will continue to

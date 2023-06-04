@@ -26,7 +26,7 @@ const Operations = () => {
       </Box>
       <OperationsThirdSection/>
       <OperationsForthSection/>
-      <Box zIndex={100} paddingX={{xs:'25px', sm:'30px',md:'250px'}} sx={{transform:'translate(0 ,-70px)'}}>
+      <Box zIndex={100} paddingX={{xs:'25px', sm:'30px',md:'200px',lg:'180px',xl:'250px'}} sx={{transform:'translate(0 ,-70px)'}}>
         <OperationsFifthSection/>
       </Box>
       <Box sx={{backgroundImage: `url(${operationsseventhBg})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}} >

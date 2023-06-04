@@ -25,8 +25,8 @@ const AboutFourthSection = () => {
                     Leadership
                 </Typography>
                 <Typography lineHeight='24px' fontSize={{xs:'12px',sm:'12px',md:'14px',lg:'18px'}} fontWeight={600} color='#2E2E2E'>
-                    “Our passion for work and customer oriented<br/>approach is
-                    clearly seen in our functioning,<br/>
+                    “Our passion for work and customer oriented approach is
+                    clearly seen in our functioning, 
                     which is done keeping
                     our clients in mind.”
                 </Typography>

@@ -27,6 +27,11 @@
     background: transparent;
     
   }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
   
   .contact .row form textarea {
     height: 6rem;

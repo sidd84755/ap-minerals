@@ -14,7 +14,7 @@ const ContactForm = () => {
             <input type="email" name="email" placeholder="Email" className={classes.box} required/>
           </Box>
           <Box>
-            <input type="number" name="number" placeholder="Number" className={classes.box2} required/>
+            <input type="number" name="number" placeholder="Number" className={classes.box2} required min="10" max="10"/>
           </Box>
           <Box>
                        
