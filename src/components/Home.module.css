@@ -1,0 +1,72 @@
+ .contact .row form {
+    display: flex;
+    flex-flow: column;
+    
+  }
+  
+  
+  .contact .row form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    font-size: 14px;
+    color: #A9A9A9;
+    text-transform: none;
+    margin: 1rem 0;
+    border: #A17337 solid 3px;
+    background: transparent;
+    
+  }
+  .contact .row form .box2 {
+    width: 39%;
+    padding: 1rem 1.2rem;
+    font-size: 14px;
+    color: #A9A9A9;
+    text-transform: none;
+    margin: 1rem 0;
+    border: #A17337 solid 3px;
+    background: transparent;
+    
+  }
+  
+  .contact .row form textarea {
+    height: 6rem;
+    resize: none;
+    width: 92%;
+    padding: 1rem 1.2rem;
+    font-size: 14px;
+    color: #A9A9A9;
+    text-transform: none;
+    margin: 1rem 0;
+    border: #A17337 solid 3px;
+    background: transparent;
+    font-family: 'Roboto';
+  }
+
+  .mybutton:hover {
+    background-color: #7C4D10 !important;
+  }
+  .navlink:hover {
+    color: #A17337 !important;
+  }
+  .mybuttonsecond:hover {
+    background-color: #A17337 !important;
+    color: #fff !important;;
+  }
+  .mybuttonthird {
+    background-color: #A17337 !important;
+  }
+  .mybuttonthird:hover {
+    background-color: #7C4D10 !important;
+  }
+
+  @media (max-width:1536px) {
+    .mybutton {
+      font-size: 20px !important;
+    }
+    .mybuttonsecond {
+      font-size: 20px !important;
+    }
+    .mybuttonthird {
+      font-size: 20px !important;
+    }
+  }

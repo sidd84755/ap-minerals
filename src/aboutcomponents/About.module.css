@@ -1,0 +1,20 @@
+
+  .mybutton:hover {
+    background-color: #7C4D10 !important;
+  }
+  .navlink:hover {
+    color: #A17337 !important;
+  }
+  .mybuttonsecond:hover {
+    background-color: #A17337 !important;
+    color: #fff !important;
+  }
+
+  @media (max-width:1536px) {
+    .mybutton {
+      font-size: 20px !important;
+    }
+    .mybuttonsecond {
+      font-size: 20px !important;
+    }
+  }
