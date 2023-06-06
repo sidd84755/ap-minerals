@@ -9,11 +9,11 @@ const ContactForm = () => {
     <Box className={classes.contact}>
       <Box className={classes.row}>
         <form action="https://formsubmit.co/info@apmineral.in" method="POST" >
-          <Box display='flex' flexDirection='row' gap='1.5rem' justifyContent='space-between'>   
+          <Box display='flex' flexDirection={{xs:'column',sm:'column',md:'row'}} gap='1.5rem' justifyContent='space-between'>   
             <input type="text" name="name" placeholder="Name" className={classes.box} required/>
             <input type="email" name="email" placeholder="Email" className={classes.box} required/>
           </Box>
-          <Box>
+          <Box display='flex' flexDirection={{xs:'column',sm:'column',md:'row'}}>
             <input type="number" name="number" placeholder="Number" className={classes.box2} required min="10" max="10"/>
           </Box>
           <Box>

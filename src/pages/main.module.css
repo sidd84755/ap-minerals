@@ -1,5 +1,7 @@
 @media (max-width:600px) {
     .bg1{
-        background-image: url(../assets/homemobbg.png);
+        background-image: url(../assets/homemobbg.png) !important;
+        background-size: cover;
+        
     }
   }

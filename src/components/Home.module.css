@@ -88,5 +88,23 @@
     .homeimg2{
       display: inline;
       margin-top: 50px;
+      width: 100%;
+    }
+    .contact .row form .box2 {
+      width: 90%;
+      
+    }
+    .contact .row form .box {
+      width: 90%;
+    }
+    .contact .row form textarea {
+      width: 90%;
+    }
+    .contactimg{
+      width: 100%;
+    }
+    .navlink {
+      color:#fff !important;
+      border: none !important;
     }
   }

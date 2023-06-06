@@ -9,8 +9,8 @@ import { Link as NewLink} from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-        <Box display='flex' flexDirection='column' gap='3rem' backgroundColor='#000' borderTop='25px solid #CDA571' paddingY={{xs:'15px', sm:'20px',md:'40px'}}>
-            <Box display='flex' flexDirection='row' flexWrap='wrap' justifyContent='space-evenly'>
+        <Box display='flex' flexDirection='column' gap='3rem' backgroundColor='#000' borderTop='25px solid #CDA571' paddingY={{xs:'15px', sm:'20px',md:'40px'}} paddingX={{xs:'15px', sm:'20px',md:'40px'}}>
+            <Box display='flex' flexDirection={{xs:'column',sm:'column',md:'row'}} justifyContent={{xs:'center',sm:'center',md:'space-evenly'}} alignItems={{xs:'center',sm:'center',md:'flex-start'}} gap={{xs:'2rem',sm:'2rem',md:'0'}}>
                 <Box>
                     <img src={mainsectionImg} alt="brand-logo" />
                 </Box>
@@ -47,7 +47,7 @@ const Footer = () => {
                         </Box>
                     </Box>
                 </Box>
-                <Box display='flex' flexDirection='row' gap='3rem'>
+                <Box display='flex' flexDirection={{xs:'column',sm:'column',md:'row'}} gap='3rem' textAlign='center'>
                     <NewLink to='/' style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>Home</NewLink>
                     <NewLink to='/about' style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>About</NewLink>
                     <NewLink to='/operations' style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>Operations</NewLink>

@@ -12,24 +12,30 @@ const Navbar = () => {
   return (
     <>
       <Stack
+        paddingY={{md: 4}}
         position='fixed'
         width='100%'
         style={{zIndex:2,background:'linear-gradient(180deg, #000000 41.47%, rgba(0, 0, 0, 0) 100%)'}}
       >
-        <header class="header">
+        <header className="header">
 
-            <a href="#" class="logo"> <i class="fas fa-sun"></i> Weather Station </a>
+            <Link to='/'>
+              <img className='mlogo' src={Logo} alt="brand-logo"/>
+            </Link>
 
             <div id="menu-btn"><MenuIcon/></div>
 
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Daily</a></li>
-                    
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
+            <nav className="navbar">
+            <Stack direction={{ xs: "column", sm: "column", md: "column", lg:'row'}}
+              spacing={{ xs: 10, sm: 20, md: 4}}
+              justifyContent='flex-start'
+              alignItems='center'
+              mt={{xs:'50px',sm:'60px',md:'70px',lg:'0'}}
+            >
+                  <Link className={classes.navlink} to='/about' style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500}}>About</Link>
+                  <Link className={classes.navlink} to='/operations' style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500}}>Our Operations</Link>
+                  <Button className={classes.navlink} component={Link} to='/contact' variant="outlined" style={{color:'#cda571',borderColor:'#cda571',borderRadius:'0',textTransform:'capitalize', fontSize:'20px'}}>Contact Us</Button>
+            </Stack>    
             </nav>
         </header>
       </Stack>

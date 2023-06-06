@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
     <Box position='relative'>
-      {/* <Navbar/> */}
+      <Navbar/>
       <HomeHero/>
     </Box>
     <Box >
