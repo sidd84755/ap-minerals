@@ -63,6 +63,12 @@
   .mybuttonthird:hover {
     background-color: #7C4D10 !important;
   }
+  .homeimg1{
+    visibility: visible;
+  }
+  .homeimg2{
+    display: none;
+  }
 
   @media (max-width:1536px) {
     .mybutton {
@@ -73,5 +79,14 @@
     }
     .mybuttonthird {
       font-size: 20px !important;
+    }
+  }
+  @media (max-width:600px) {
+    .homeimg1{
+      display: none;
+    }
+    .homeimg2{
+      display: inline;
+      margin-top: 50px;
     }
   }

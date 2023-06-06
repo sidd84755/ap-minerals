@@ -8,6 +8,7 @@ import HomeFifthSection from '../components/HomeFifthSection'
 import Footer from '../components/Footer'
 import { Box, Typography } from '@mui/material'
 import { homethirdBg, homefifthBg } from '../assets'
+import classes from './main.module.css'
 
 const Home = () => {
   window.onbeforeunload = function () {
@@ -16,14 +17,14 @@ const Home = () => {
   return (
     <>
     <Box position='relative'>
-      <Navbar/>
+      {/* <Navbar/> */}
       <HomeHero/>
     </Box>
     <Box >
       <Box paddingX={{xs:'25px', sm:'30px',md:'190px'}}>
         <HomeSecondSection/>
       </Box>
-      <Box paddingX={{xs:'25px', sm:'30px',md:'200px'}} sx={{backgroundImage: `url(${homethirdBg})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
+      <Box className={classes.bg1} paddingX={{xs:'25px', sm:'30px',md:'200px'}} sx={{backgroundImage: `url(${homethirdBg})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
         <HomeThirdSection/>
       </Box>
       <HomeFourthSection/>

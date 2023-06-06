@@ -10,13 +10,13 @@ const AboutFourthSection = () => {
         <Box display='flex' flexDirection='row' gap={{xs:'1rem',sm:'1rem',md:'1rem',lg:'1rem',xl:'2.6rem'}} alignItems='center'>
             <Box display='flex' flexDirection='column' alignItems='center' textAlign='center'>
                 <img src={founderA} alt="" style={{backgroundColor:'#A17337'}}/>
-                <Typography lineHeight='69px' fontSize={{xs:'16px',sm:'22px',md:'30px',lg:'40px'}} fontWeight={900} color='#A17337'>
+                <Typography lineHeight='69px' fontSize={{xs:'16px',sm:'22px',md:'30px',lg:'32px'}} fontWeight={900} color='#A17337'>
                     AMIT PANDEY
                 </Typography>
             </Box>
             <Box display='flex' flexDirection='column' alignItems='center' textAlign='center'>
                 <img src={founderB} alt="" style={{backgroundColor:'#A17337'}}/>
-                <Typography lineHeight='69px' fontSize={{xs:'16px',sm:'22px',md:'30px',lg:'40px'}} fontWeight={900} color='#A17337'>
+                <Typography lineHeight='69px' fontSize={{xs:'16px',sm:'22px',md:'30px',lg:'32px'}} fontWeight={900} color='#A17337'>
                     PRAMOD KOVE
                 </Typography>
             </Box>

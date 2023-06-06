@@ -3,6 +3,7 @@ import mainBg from './mainbg.png'
 import mainsectionImg from './mainsectionlogo.png'
 import homethirdBg from './homethirdbg.png'
 import homefourthImg from './homefourthimg.png'
+import homefourthImgMob from './homefourthimgmob.png'
 import homefifthImg from './homefifthimg.png'
 import homefifthBg from './homefifthbg.png'
 import aboutmainBg from './aboutmainbg.png'
@@ -34,6 +35,7 @@ export {
     mainsectionImg,
     homethirdBg,
     homefourthImg,
+    homefourthImgMob,
     homefifthImg,
     homefifthBg,
     aboutmainBg,
