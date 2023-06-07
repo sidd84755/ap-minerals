@@ -9,6 +9,10 @@
     background-color: #A17337 !important;
     color: #fff !important;
   }
+  
+  .aboutfifth2{
+    display: none !important;
+  }
 
   @media (max-width:1536px) {
     .mybutton {
@@ -16,5 +20,16 @@
     }
     .mybuttonsecond {
       font-size: 20px !important;
+    }
+  }
+  @media (max-width:600px) {
+    .bg1{
+      background-image: url(../assets/aboutbgmob.png) !important;
+    }
+    .aboutfifth1{
+      display: none !important;
+    }
+    .aboutfifth2{
+      display: flex !important;
     }
   }
