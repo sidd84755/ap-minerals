@@ -1,0 +1,61 @@
+* {
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+.header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding: 0 9%;
+    
+}
+
+
+#menu-btn {
+    cursor: pointer;
+    color: #CDA571;
+    font-size: 2.5rem;
+    display: none;
+}
+
+@media (max-width: 768px){
+    #menu-btn {
+        display: inline-block;
+    }
+    .header{
+        padding: 2rem;
+    }
+    .mlogo {
+        width:200px;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        background-color: #A17337;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navbar.active {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .header .navbar ul li{
+        width: 100%;
+    }
+
+}

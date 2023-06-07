@@ -32,4 +32,8 @@
     .aboutfifth2{
       display: flex !important;
     }
+    .navlink {
+      color:#fff !important;
+      border: none !important;
+    }
   }
