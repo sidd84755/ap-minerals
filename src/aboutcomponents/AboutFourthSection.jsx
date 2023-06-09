@@ -8,6 +8,7 @@ const AboutFourthSection = () => {
   return (
     <Box paddingY={{xs:'100px', sm:'100px',md:'60px'}} display='flex' flexDirection='column' alignItems='center' gap='4rem'>
         <Box display='flex' flexDirection={{xs:'column-reverse',sm:'column-reverse',md:'row'}} gap={{xs:'2rem',sm:'2rem',md:'1rem',lg:'1rem',xl:'2.6rem'}} alignItems='center'>
+            <Box>
             <Box display='flex' flexDirection='column' alignItems='center' textAlign='center'>
                 <img src={founderA} alt="" style={{backgroundColor:'#A17337'}}/>
                 <Typography lineHeight='69px' fontSize={{xs:'32px',sm:'32px',md:'32px',lg:'32px'}} fontWeight={900} color='#A17337'>
@@ -19,6 +20,7 @@ const AboutFourthSection = () => {
                 <Typography lineHeight='69px' fontSize={{xs:'32px',sm:'32px',md:'32px',lg:'32px'}} fontWeight={900} color='#A17337'>
                     PRAMOD KOVE
                 </Typography>
+            </Box>
             </Box>
             <Box display='flex' flexDirection='column' alignItems='center' textAlign='center' gap='1rem'>
                 <Typography lineHeight={{xs:'49px',sm:'49px',md:'56px'}} fontSize={{xs:'42px',sm:'42px',md:'42px',lg:'48px'}} fontWeight={700} color='#A17337'>

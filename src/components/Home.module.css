@@ -107,4 +107,8 @@
       color:#fff !important;
       border: none !important;
     }
+    .bg2{
+      background-image: url(../assets/mainmobbg.png) !important;
+      background-size: cover;
+    }
   }
