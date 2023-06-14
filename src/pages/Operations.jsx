@@ -13,9 +13,6 @@ import classes from './main.module.css'
 
 
 const Operations = () => {
-  window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-  }
   return (
     <>
       <Box position='relative'>

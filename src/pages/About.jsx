@@ -12,9 +12,6 @@ import { Box } from '@mui/material'
 import { aboutsixthBg } from '../assets'
 
 const About = () => {
-  window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-  }
   return (
     <Box sx={{overflowX:'hidden'}}>
       <Box position='relative'>

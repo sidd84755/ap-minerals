@@ -11,9 +11,6 @@ import { homethirdBg, homefifthBg } from '../assets'
 import classes from './main.module.css'
 
 const Home = () => {
-  window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-  }
   return (
     <>
     <Box position='relative'>
