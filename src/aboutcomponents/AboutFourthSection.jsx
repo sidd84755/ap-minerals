@@ -8,7 +8,7 @@ const AboutFourthSection = () => {
   return (
     <Box paddingY={{xs:'100px', sm:'100px',md:'60px'}} display='flex' flexDirection='column' alignItems='center' gap='4rem'>
         <Box display='flex' flexDirection={{xs:'column-reverse',sm:'column-reverse',md:'row'}} gap={{xs:'2rem',sm:'2rem',md:'1rem',lg:'1rem',xl:'2.6rem'}} alignItems='center'>
-            <Box>
+            <Box display='flex' flexDirection={{xs:'column',sm:'column',md:'row'}} gap={{xs:'2rem',sm:'2rem',md:'1rem',lg:'1rem',xl:'2.6rem'}} alignItems='center'>
             <Box display='flex' flexDirection='column' alignItems='center' textAlign='center'>
                 <img src={founderA} alt="" style={{backgroundColor:'#A17337'}}/>
                 <Typography lineHeight='69px' fontSize={{xs:'32px',sm:'32px',md:'32px',lg:'32px'}} fontWeight={900} color='#A17337'>
