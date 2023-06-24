@@ -4,7 +4,16 @@
     
   }
   
-  
+  .popup1 {
+    width: 100% !important;
+    padding: 1rem 1.2rem;
+    font-size: 14px;
+    color: #A9A9A9;
+    text-transform: none;
+    margin: 1rem 0;
+    border: #A17337 solid 3px;
+    background: transparent;
+  }
   .contact .row form .box {
     width: 100%;
     padding: 1rem 1.2rem;

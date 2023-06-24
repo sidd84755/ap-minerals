@@ -31,9 +31,7 @@ const OperationSecondSection = () => {
                 Each of the concessions is strategically located with the
                 best possible lower end cost stipulating to<br/>minimum
                 logistics, and coal grades ranging from GAR (ARB) 3400
-                Kcal/kg to GAR (ARB) 6500 kcal/kg<br/>with collective
-                reserves of over 100 million metric Tons of mineable
-                reserves.
+                Kcal/kg to GAR (ARB) 6500 kcal/kg.
             </Typography>
         </Box>
       </Box>

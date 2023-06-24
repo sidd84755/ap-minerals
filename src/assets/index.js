@@ -28,6 +28,7 @@ import sL6 from './sl6.jpg'
 import sL7 from './sl7.jpg'
 import sL8 from './sl8.jpg'
 import sL9 from './sl9.jpg'
+import popupbg from './popupbg.png'
 
 export {
     Logo,
@@ -59,6 +60,6 @@ export {
     sL6,
     sL7,
     sL8,
-    sL9
-
+    sL9,
+    popupbg
 }

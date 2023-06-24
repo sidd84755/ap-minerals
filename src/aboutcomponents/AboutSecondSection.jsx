@@ -26,7 +26,7 @@ const AboutSecondSection = () => {
               providing our team of geologists,<br/>contractors, operators,
               partners, collaborators on mining and providing
               equipment, for<br/>hauling, jetty, barges and other activities.
-              We supply the coal on FOB and CFR/CIF terms and<br/>also
+              We supply the coal on FOB terms and also<br/>
               stand for the enforcing law of ICC – International Chamber
               of Commerce.
             </Typography>
