@@ -19,6 +19,7 @@ import operationsbgvideo from './bgvideo.mp4'
 import operationsmainBg from './operationsmainbg.png'
 import operationsixthBg from './operationssixthbg.png'
 import operationsseventhBg from './aboutseventhbg.png'
+import crown from './crown.png'
 import sL1 from './sl1.jpg'
 import sL2 from './sl2.jpg'
 import sL3 from './sl3.jpg'
@@ -52,6 +53,7 @@ export {
     operationsbgvideo,
     operationsixthBg,
     operationsseventhBg,
+    crown,
     sL1,
     sL2,
     sL3,
