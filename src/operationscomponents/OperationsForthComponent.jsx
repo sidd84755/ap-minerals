@@ -16,7 +16,7 @@ const OperationsForthSection = () => {
                 The growth and sustainability of the company will rely on
             </Typography>  
         </Box> 
-        <Box display='flex' flexDirection={{xs:'column',sm:'column',md:'row'}} gap='1rem' paddingY={{xs:'25px', sm:'30px',md:'50px'}} paddingX={{xs:'30px', sm:'30px',md:'150px'}}>
+        <Box display='flex' flexDirection={{xs:'column',sm:'column',md:'row'}} gap='1rem' paddingY={{xs:'25px', sm:'30px',md:'50px'}} paddingX={{xs:'30px', sm:'30px',md:'40px'}}>
             <Box display='flex' flexDirection='column' gap='0.8rem' paddingY={{xs:'50px', sm:'50px',md:'50px'}} paddingX={{xs:'20px', sm:'20px',md:'40px'}} sx={{backgroundImage:`url(${cardBg})`}}>
                 <Typography fontSize={{xs:'20px',sm:'20px',md:'20px',lg:'20px'}} fontWeight={600} color='#E5E5E5' lineHeight='28px'>
                     In The Short Term
@@ -34,7 +34,7 @@ const OperationsForthSection = () => {
                 </Typography> 
                 <Typography fontSize={{xs:'14px',sm:'14px',md:'14px',lg:'14px'}} fontWeight={400} color='#E5E5E5' lineHeight='20px'>
                     Continuing
-                    exploration with the existing mine
+                    exploration with the existing mine<br/>
                     assets to expand resources, extend
                     mine lives, and construct and place
                     new mine assets into production.
