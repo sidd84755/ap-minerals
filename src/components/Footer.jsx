@@ -5,6 +5,7 @@ import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import { Link as NewLink} from 'react-router-dom';
+import classes from './Home.module.css'
 
 const Footer = () => {
   return (
@@ -48,10 +49,10 @@ const Footer = () => {
                     </Box>
                 </Box>
                 <Box display='flex' flexDirection={{xs:'column',sm:'column',md:'row'}} gap='3rem' textAlign='center'>
-                    <NewLink to='/' style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>Home</NewLink>
-                    <NewLink to='/about' style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>About</NewLink>
-                    <NewLink to='/operations' style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>Operations</NewLink>
-                    <NewLink to='/contact' style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>Contact Us</NewLink>
+                    <NewLink to='/' className={classes.navlink} style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>Home</NewLink>
+                    <NewLink to='/about' className={classes.navlink} style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>About</NewLink>
+                    <NewLink to='/operations' className={classes.navlink} style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>Operations</NewLink>
+                    <NewLink to='/contact' className={classes.navlink} style={{textDecoration:'none',color:'#CDA571',fontSize:'20px',fontWeight:500, fontFamily:'Roboto'}}>Contact Us</NewLink>
                 </Box>
             </Box>
             <Box display='flex' flexDirection='row' gap='3rem' paddingX={{xs:'15px', sm:'20px',md:'150px'}}>
