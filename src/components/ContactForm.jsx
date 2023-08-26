@@ -1,8 +1,9 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { Box, Grid, TextField, Button } from '@mui/material'
 import classes from './Home.module.css'
 
 const ContactForm = () => {
+
     
   return (
     <>
@@ -14,7 +15,8 @@ const ContactForm = () => {
             <input type="email" name="email" placeholder="Email*" className={classes.box} required/>
           </Box>
           <Box display='flex' flexDirection={{xs:'column',sm:'column',md:'row'}}>
-            <input type="number" name="number" placeholder="Number" className={classes.box2} maxlength='10' required/>
+            <input 
+             type="number" maxLength={10} name="number" placeholder="Number" className={classes.box2} required/>
           </Box>
           <Box>
                        

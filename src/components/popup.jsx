@@ -86,7 +86,7 @@ export default function CustomizedDialogs1() {
                 <Box display='flex' flexDirection='column' alignItems='center'>   
                     <input type="email" name="email" placeholder="Email" className={classes.popup1} required/>
                     <a href={apmineral} download="ApMineral">
-                        <Button className={classes.mybutton}  variant="contained" style={{borderRadius:0,padding:'10px 40px',marginTop:'100px',color:'#fff',backgroundColor:'#A17337',textTransform:'capitalize',fontSize:'28px'}}>Download Profile</Button>
+                        <Button id='sub' className={classes.mybutton}  variant="contained" style={{borderRadius:0,padding:'10px 40px',marginTop:'100px',color:'#fff',backgroundColor:'#A17337',textTransform:'capitalize',fontSize:'28px'}}>Download Profile</Button>
                     </a>
                 </Box>
             </form>    

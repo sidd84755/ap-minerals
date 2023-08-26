@@ -7,6 +7,7 @@ import SaveAltIcon from '@mui/icons-material/SaveAlt';
 import CustomizedDialogs from './Popup1'
 import CustomizedDialogs1 from './popup'
 
+
 const HomeHero = () => {
   return (
     <>
@@ -23,7 +24,7 @@ const HomeHero = () => {
         The Coal Mining &<br/>Trading Company
         </Typography>
         <Button className={classes.mybutton} component={Link} to='/operations' variant="contained" style={{borderRadius:0,padding:'10px 60px',marginTop:'20px',color:'#fff',backgroundColor:'#A17337',textTransform:'capitalize',fontSize:'28px'}}>What We Do</Button>
-        <Box display='flex' flexDirection='row' alignItems='center' mt='50px'>
+        <Box display='flex' flexDirection={{xs:'column', sm:'column',md:'row'}} gap='1rem' alignItems='center' mt='50px'>
           <Box>
             <Typography fontSize={{xs:'16px',sm:'16px',md:'18px',lg:'18px',xl:'18px'}} fontWeight={600} textAlign='center' color='#E5E5E5'>
               Company Profiles:
