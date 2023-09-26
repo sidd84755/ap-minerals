@@ -7,8 +7,8 @@ import classes from './Operations.module.css'
 const OperationsAdditionalComponent2 = () => {
   return (
     <>
-      <Box sx={{zIndex:1, backgroundImage: `url(${opmbg})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}} paddingY={{xs:'25px', sm:'30px',md:'80px'}}
-        display='flex' flexDirection={{xs:'column', sm:'column',md:'row'}} flexWrap='wrap' alignContent='center' alignItems='center' justifyContent='center' gap='1rem'
+      <Box sx={{zIndex:1, backgroundImage: `url(${opmbg})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}} paddingY={{xs:'25px', sm:'30px',md:'80px'}} paddingX={{xs:'25px', sm:'30px',md:'180px'}}
+        display='flex' flexDirection={{xs:'column', sm:'column',md:'row'}} flexWrap='wrap' alignContent='center' alignItems='center' justifyContent='center' gap={{xs:'1rem', sm:'1rem',md:'1rem',lg:'1rem'}}
       >
         <Box>
             <img className={classes.opmsize} src={opm1} alt="" />  

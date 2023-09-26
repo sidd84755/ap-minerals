@@ -9,7 +9,7 @@ const AboutHero = () => {
   return (
     <>
       <Box className={classes.bg1} sx={{height:'80vh', backgroundImage:`url(${aboutmainBg})`,backgroundRepeat:'no-repeat',backgroundSize:'100% 100%',zIndex:1}}
-        display='flex' flexDirection={{xs:'column-reverse',sm:'column-reverse',md:'row'}} justifyContent={{xs:'flex-start',sm:'flex-start',md:'flex-end'}} alignItems='flex-end'
+        display='flex' flexDirection={{xs:'column-reverse',sm:'column-reverse',md:'row'}} justifyContent={{xs:'flex-start',sm:'flex-start',md:'flex-end'}} alignItems={{xs:'center',sm:'center',md:'flex-end'}}
       >
         <Box display='flex' flexDirection={{xs:'column', sm:'column',md:'row'}} gap='1rem' alignItems='center' paddingY={{xs:'50px', sm:'50px',md:'80px'}}>
           <Box>
